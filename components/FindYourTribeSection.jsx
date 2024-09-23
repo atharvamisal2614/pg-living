@@ -58,7 +58,7 @@ function FindYourTribeSection() {
             <div>Find your tribe, live your life</div>
           </div>
           <div className="text-xl text-gray-500">
-            It's more than just a place to live; it is where moments come alive. From lively Halloween parties to cultural celebrations, every event is a chance to live life to the fullest.
+            It&apos;s more than just a place to live; it is where moments come alive. From lively Halloween parties to cultural celebrations, every event is a chance to live life to the fullest.
           </div>
           <button className="relative flex items-center justify-center rounded-full border-1 border-solid border-primary bg-[#5564AE] text-white font-medium capitalize transition-colors duration-500 hover:opacity-80 px-8 py-3 w-full md:w-auto">
             Find your perfect home

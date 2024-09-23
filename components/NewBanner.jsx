@@ -20,7 +20,7 @@ function NewBanner() {
         {/* Text content */}
         <div className="text-center md:mt-0 md:w-1/2 md:text-left">
           <p className="my-2 text-lg font-bold text-yellow-500">
-            It's all yours!
+            It&apos;s all yours!
           </p>
           <p className="text-2xl xl:text-4xl text-white">Your cozy home awaits</p>
           <p className="mt-4 text-center text-gray-200 opacity-80 md:mt-6 md:w-[50%] md:text-left xl:w-[60%]">

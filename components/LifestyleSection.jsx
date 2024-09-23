@@ -23,9 +23,9 @@ function LifestyleSection() {
                 <div>made for you</div>
               </div>
               <div className="text-black opacity-90 sm:w-3/4 sm:text-lg">
-                With diverse housing options, you're not just choosing a home;
-                you're crafting a lifestyle that reflects your individuality.
-                Beyond mere renting, we're here to support your everyday living,
+                With diverse housing options, you&apos;re not just choosing a home;
+                you&apos;re crafting a lifestyle that reflects your individuality.
+                Beyond mere renting, we&apos;re here to support your everyday living,
                 hassle-free.
               </div>
             </div>
@@ -40,7 +40,7 @@ function LifestyleSection() {
               </div>
               <div className="mb-2 mt-6 text-lg font-bold sm:text-xl">Unmatched Privacy</div>
               <div className="text-gray-800 text-justify opacity-70">
-                We're committed to protecting your privacy. Throughout your rental journey, we will be there for you every step of the way.
+                We&apos;re committed to protecting your privacy. Throughout your rental journey, we will be there for you every step of the way.
               </div>
             </div>
 
@@ -73,7 +73,7 @@ function LifestyleSection() {
               </div>
               <div className="mb-2 mt-6 text-lg font-bold sm:text-xl">Nest n Network</div>
               <div className="text-gray-800 text-justify opacity-70">
-                From shared spaces to curated events, we foster a space where you're not just renting a home but building the future.
+                From shared spaces to curated events, we foster a space where you&apos;re not just renting a home but building the future.
               </div>
             </div>
           </div>
