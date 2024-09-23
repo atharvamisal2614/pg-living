@@ -51,12 +51,12 @@ function FindYourTribeSection() {
         {/* Text Section */}
         <div className="order-2 w-full space-y-8 md:order-1 lg:w-2/5">
           <div className="my-2 hidden space-y-2 text-2xl md:block md:text-4xl">
-            <div>Find your tribe,</div>
-            <div>live your life</div>
+            <div >Find your tribe,</div>
+            <div >live your life</div>
           </div>
-          <div className="mb-2 text-2xl md:hidden">
+          {/* <div className="mb-2 text-2xl md:hidden">
             <div>Find your tribe, live your life</div>
-          </div>
+          </div> */}
           <div className="text-xl text-gray-500">
             It&apos;s more than just a place to live; it is where moments come alive. From lively Halloween parties to cultural celebrations, every event is a chance to live life to the fullest.
           </div>
