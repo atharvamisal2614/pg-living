@@ -22,7 +22,7 @@ function Header() {
   
   
       px-8 py-3
-      " style={{backgroundColor:'#5564AE'}}>Explore PG's</button>
+      " style={{backgroundColor:'#5564AE'}}>Explore PG&apos;s</button>
   </Link>
            
           </nav>
