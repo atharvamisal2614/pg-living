@@ -7,7 +7,7 @@ import { FaDumbbell } from "react-icons/fa6";
 
 const Amenities = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 ">
       <h2 className="text-2xl font-bold mb-5 text-center">Top Amenities</h2>
       <div className="grid grid-cols-3 gap-8">
         {/* Row 1 */}

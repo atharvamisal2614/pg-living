@@ -1,6 +1,7 @@
-"use client";
+
 
 import Link from "next/link";
+import Image from "next/image";
 
 const pgs = () => {
   return (
@@ -10,10 +11,10 @@ const pgs = () => {
         <Link href="/singlesharing">
           <div className="relative w-full">
             {/* Image section */}
-            <img
+            <Image
               className="object-cover w-full h-2/3 rounded-t-lg" // Adjust height for better appearance
               src="/pgimages/single-bed-image.jpg"
-              alt="PG Image"
+              alt="PG Image" width={500} height={500}
             />
           </div>
           <div className="p-4">
@@ -39,10 +40,10 @@ const pgs = () => {
         <Link href="/doublesharing">
           <div className="relative w-full">
             {/* Image section */}
-            <img
+            <Image
               className="object-cover w-full h-2/3 rounded-t-lg"
               src="/pgimages/two-sharing-1.jpg"
-              alt="PG Image"
+              alt="PG Image" width={500} height={500}
             />
           </div>
           <div className="p-4">
@@ -68,10 +69,10 @@ const pgs = () => {
         <Link href="/triplesharing">
           <div className="relative w-full">
             {/* Image section */}
-            <img
+            <Image
               className="object-cover w-full h-2/3 rounded-t-lg"
               src="/pgimages/three-sharing.jpg"
-              alt="PG Image"
+              alt="PG Image" width={500} height={500}
             />
           </div>
           <div className="p-4">

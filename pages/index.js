@@ -5,11 +5,12 @@ import Hero from "@/components/Hero";
 import LifestyleSection from "@/components/LifestyleSection";
 import StatsSection from "@/components/StateSection";
 import FindYourTribeSection from "@/components/FindYourTribeSection";
-import LiveYourWay from "@/components/LiveYourWay";
 import Properties from "@/components/Properties";
 import NewBanner from "@/components/NewBanner";
 import CommunitySection from "@/components/CommunitySection";
 import Footer from "@/components/Footer";
+import Location from "@/components/Location"
+import Testimonials from "@/components/Testimonials"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,10 +31,10 @@ export default function Home() {
   <LifestyleSection />
   <StatsSection />
   <FindYourTribeSection />
-  <LiveYourWay />
+  <Testimonials />
   <Properties/>
   <NewBanner />
-  <CommunitySection />
+<Location />
   <Footer />
  </>
   );

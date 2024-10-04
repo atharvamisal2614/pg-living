@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function NewBanner() {
   return (
@@ -29,13 +30,16 @@ function NewBanner() {
 
           {/* Button */}
           <div className="flex max-sm:justify-center">
+          <Link href={ 'https://wa.me/+919730771171'}
+>
             <button
               className="relative flex flex-none items-center justify-center rounded-full border border-solid text-center font-medium capitalize transition-colors duration-500 hover:opacity-80
               px-8 py-3
               border-neutral-white bg-white textblack hover:bg-gray-300  disabled:border-transparent disabled:bg-neutral-ghost-white disabled:text-neutral-silver disabled:hover:opacity-100 my-10"
             >
-              Schedule a Site Visit
+              Schedule a Visit
             </button>
+            </Link>
           </div>
         </div>
 
