@@ -8,6 +8,8 @@ module.exports = {
   theme: {
     extend: {
      colors: {
+      customBlue:'#2690c1',
+      customYellow:'#f3ac20',
         secondaryPurple: 'rgb(46 47 89)',
         pastelAliceBlue: 'rgb(234 244 255)',
       },

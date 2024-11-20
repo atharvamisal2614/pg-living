@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head >
-      <link rel="icon" href="/images/smart_living_logo.png" />
+      <link rel="icon" href="/images/smartlivinglogo-og-1.jpg" />
       <title>Smart Living pg</title>
       </Head>
       <body className="antialiased">

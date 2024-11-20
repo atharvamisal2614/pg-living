@@ -111,7 +111,7 @@ const doublesharing = () => {
           </div>
 
           <Link href="/book">
-            <button className="mt-5 w-full bg-[#5564AE] text-white py-2 rounded hover:opacity-80">
+            <button className="mt-5 w-full bg-customBlue text-white py-2 rounded hover:opacity-80">
               Book Now
             </button>
           </Link>

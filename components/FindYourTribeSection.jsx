@@ -21,7 +21,7 @@ function FindYourTribeSection() {
 
         {/* Text Section */}
         <div className="w-full space-y-8 text-center md:text-left md:w-2/5 md:mr-10">
-          <div className="text-3xl font-bold md:text-4xl">
+          <div className="text-3xl font-bold md:text-4xl ">
             <div>Find your perfect room,</div>
             <div>tailored for your needs</div>
           </div>
@@ -60,7 +60,7 @@ function FindYourTribeSection() {
           </div>
 
           <Link href="/pgs">
-            <button className="mt-6 inline-flex items-center justify-center rounded-full bg-[#5564AE] text-white font-medium px-8 py-3 w-full md:w-auto hover:opacity-80 transition-opacity">
+            <button className="mt-6 inline-flex items-center justify-center rounded-full bg-customBlue text-white font-medium px-8 py-3 w-full md:w-auto hover:opacity-80 transition-opacity">
               Find your perfect Room
             </button>
           </Link>

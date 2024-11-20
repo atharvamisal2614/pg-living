@@ -6,7 +6,7 @@ import { IoMdBatteryCharging, IoIosWater } from "react-icons/io";
 
 function LifestyleSection() {
   return (
-    <div className="bg-gradient-to-b from-secondaryPurple from-15% via-pastelAliceBlue via-90% to-white py-10">
+    <div className="bg-gradient-to-b from-customBlue from-15% via-pastelAliceBlue via-90% to-white py-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col w-full">
           {/* Hero Section */}
@@ -19,7 +19,7 @@ function LifestyleSection() {
           >
             <div className="absolute inset-0 bg-white opacity-70 sm:rounded-3xl" />
             <div className="absolute inset-0 z-10 flex flex-col items-start justify-center w-full p-4 space-y-4 text-center sm:ml-8 sm:text-left lg:w-1/2">
-              <div className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-semibold ">
                 A lifestyle tailor-made for you
               </div>
               <div className="text-black opacity-90 sm:w-3/4 sm:text-lg">
@@ -31,7 +31,7 @@ function LifestyleSection() {
           </div>
 
           {/* Feature Cards */}
-          <h1 className="mt-16 font-mono font-semibold md:text-gray-700 text-4xl m-auto text-gray-300">
+          <h1 className="mt-16 font-semibold md:text-gray-700 text-3xl m-auto text-gray-300 ">
             WHAT WE PROVIDE
           </h1>
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">

@@ -1,11 +1,9 @@
-
-
 import Link from "next/link";
 import Image from "next/image";
 
 const pgs = () => {
   return (
-    <div className="bg-gradient-to-t from-pastelAliceBlue from-5% to-white flex justify-center items-start p-5">
+    <div className="bg-gradient-to-t from-pastelAliceBlue from-5% to-white flex justify-center items-start p-12">
     <div className="flex flex-wrap gap-6 justify-center md:m-10"> {/* Use flex-wrap for responsiveness */}
       <div className="w-full max-w-sm bg-pastelAliceBlue border-gray-200 rounded-lg shadow-md">
         <Link href="/singlesharing">
@@ -28,7 +26,7 @@ const pgs = () => {
             </div>
             {/* Offer Tag */}
             <div className="mt-3">
-            <span className="text-sm inline-block px-3 py-2  text-white bg-[#5564AE] rounded-xl p-8 hover:opacity-80">
+            <span className="text-sm inline-block px-3 py-2  text-white bg-customBlue rounded-xl p-8 hover:opacity-80">
                Explore this PG
               </span>
             </div>
@@ -57,7 +55,7 @@ const pgs = () => {
             </div>
             {/* Offer Tag */}
             <div className="mt-3">
-              <span className="text-sm inline-block px-3 py-2  text-white bg-[#5564AE] rounded-xl p-8 hover:opacity-80">
+              <span className="text-sm inline-block px-3 py-2  text-white bg-customBlue rounded-xl p-8 hover:opacity-80">
                Explore this PG
               </span>
             </div>
@@ -86,7 +84,7 @@ const pgs = () => {
             </div>
             {/* Offer Tag */}
             <div className="mt-3">
-            <span className="text-sm inline-block px-3 py-2  text-white bg-[#5564AE] rounded-xl p-8 hover:opacity-80">
+            <span className="text-sm inline-block px-3 py-2  text-white bg-customBlue rounded-xl p-8 hover:opacity-80">
                Explore this PG
               </span>
             </div>

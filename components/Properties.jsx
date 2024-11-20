@@ -44,7 +44,7 @@ function Properties() {
               </p>
               <Link
                 href="/singlesharing"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#5564AE] rounded-lg hover:opacity-80 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-customBlue rounded-lg hover:opacity-80 focus:ring-4 focus:outline-none focus:ring-blue-300"
               >
                 Visit
                 <svg
@@ -94,7 +94,7 @@ function Properties() {
               </p>
               <Link
                 href="/doublesharing"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#5564AE] rounded-lg hover:opacity-80 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-customBlue rounded-lg hover:opacity-80 focus:ring-4 focus:outline-none focus:ring-blue-300"
               >
                 Visit
                 <svg
@@ -144,7 +144,7 @@ function Properties() {
               </p>
               <Link
                 href="/triplesharing"
-                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#5564AE] rounded-lg hover:opacity-80 focus:ring-4 focus:outline-none focus:ring-blue-300"
+                className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-customBlue rounded-lg hover:opacity-80 focus:ring-4 focus:outline-none focus:ring-blue-300"
               >
                 Visit
                 <svg

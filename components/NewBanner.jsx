@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function NewBanner() {
   return (
-    <div className="bg-secondaryPurple text-black">
+    <div className="bg-customBlue text-black">
       {/* Mobile image */}
       <Image
         alt="find home"
@@ -20,7 +20,7 @@ function NewBanner() {
       <div className="container text-center items-center relative m-auto flex px-4 max-sm:pt-0 md:h-[630px] md:py-16">
         {/* Text content */}
         <div className="text-center md:mt-0 md:w-1/2 md:text-left">
-          <p className="my-2 text-lg font-bold text-yellow-500">
+          <p className="my-2 text-lg font-bold text-customYellow">
             It&apos;s all yours!
           </p>
           <p className="text-2xl xl:text-4xl text-white">Your cozy home awaits</p>

@@ -1,4 +1,4 @@
-import Image from 'next/image'; // Next.js's Image component for optimized image handling
+import Image from 'next/image';
 
 function Hero() {
   return (
@@ -14,8 +14,8 @@ function Hero() {
           className="w-full object-cover"
           style={{ color: 'transparent' }}
         />
-        <div className="absolute left-0 top-0 h-full w-full bg-gradient-to-b from-secondaryPurple from-50% opacity-10 " />
-        <div className="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-secondaryPurple from-40%" />
+        <div className="absolute left-0 top-0 h-full w-full bg-gradient-to-b from-customBlue from-50% opacity-10 " />
+        <div className="absolute left-0 top-0 h-full w-full bg-gradient-to-t from-customBlue from-40%" />
         <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex flex-col items-center justify-center max-sm:mt-6 md:mt-[20vh]">
           <div className="flex flex-col items-center justify-center">
            

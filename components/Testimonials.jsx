@@ -57,7 +57,7 @@ const Testimonials = () => {
   return (
     <section className="text-gray-600 body-font bg-gradient-to-t from-pastelAliceBlue from-10% to-white pb-8 md:py-20 ">
       <div className="container px-5 py-24 mx-auto lg:px-24">
-        <h1 className="text-3xl font-bold text-center mb-10 text-gray-700">Testimonials</h1>
+        <h1 className="text-3xl font-semibold text-center mb-10 text-gray-600">Testimonials</h1>
         <Slider {...settings}>
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center lg:text-center sm:text-justify px-5 lg:px-10">
@@ -71,7 +71,7 @@ const Testimonials = () => {
                     key={index}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
-                    className="w-5 h-5 text-yellow-500"
+                    className="w-5 h-5 text-customYellow"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
